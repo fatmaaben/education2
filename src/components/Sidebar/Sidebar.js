@@ -10,37 +10,50 @@ function Sidebar() {
         <li>
           <a >
             <Link to="/dashboard" >
-            Dashboard <FaTachometerAlt /></Link>
+              Dashboard <FaTachometerAlt />
+            </Link>
           </a>
         </li>
         <li>
-          <a href="Student">
-            Students <FaUserGraduate />
+          <a >
+            <Link to="/student">
+              Students <FaUserGraduate />
+            </Link>
           </a>
         </li>
         <li>
-          <a href="#teachers">
-            Teachers <FaChalkboardTeacher />
+          <a >
+            <Link to="/teacher">
+              Teachers <FaChalkboardTeacher />
+            </Link>
           </a>
         </li>
         <li>
-          <a href="#users">
+          <a >
+          <Link to="/staff">
             Utilisateurs <FaUsers />
+          </Link>
           </a>
         </li>
         <li>
-          <a href="#class">
+          <a >
+          <Link to="/classes">
             Class <FaClipboardList />
+          </Link>
           </a>
         </li>
         <li>
-          <a href="#attendance">
+          <a >
+          <Link to="/absence">
             Attendance <FaCalendarCheck />
+          </Link>
           </a>
         </li>
         <li>
-          <a href="#deconnexion">
+          <a >
+          <Link to="/dashboard">
             Deconnexion <FaSignOutAlt />
+          </Link>
           </a>
         </li>
       </ul>
